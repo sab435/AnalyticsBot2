@@ -47,7 +47,7 @@ var bot = new builder.UniversalBot(connector, [
             case Upload:
                 return uploadFileAndSend(session, './images/big-image.png', 'image/png', 'BotFramework.png');
             case External:
-                var url = 'https://docs.botframework.com/en-us/images/faq-overview/botframework_overview_july.png';
+                var url = 'http://media.ycharts.com/charts/7fa69b3ab0e21d6c7d6695d781cd448b.png';
                 return sendInternetUrl(session, url, 'image/png', 'BotFrameworkOverview.png');
         }
     }]);
