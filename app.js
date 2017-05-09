@@ -48,7 +48,7 @@ var bot = new builder.UniversalBot(connector, [
                 return uploadFileAndSend(session, './images/big-image.png', 'image/png', 'BotFramework.png');
             case External:
                 var url = 'http://media.ycharts.com/charts/7fa69b3ab0e21d6c7d6695d781cd448b.png';
-                return sendInternetUrl(session, url, 'image/png', 'BotFrameworkOverview.png');
+                return sendInternetUrl(session, url, 'image/png', 'Overview.png');
         }
     }]);
 
